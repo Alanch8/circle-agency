@@ -6,10 +6,34 @@ body {
   line-height: 20px;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.body-regular {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #6b708d;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 100px 0px;
 }
 
 .navbar-logo {
@@ -58,8 +82,6 @@ body {
   justify-content: center;
 }
 
-.hero-imgs {
-}
 .hero-img {
   position: relative;
   padding: 50px;
@@ -70,23 +92,18 @@ body {
 .hero-card1 {
   position: absolute;
   height: 500px;
-  right: 500px;
+  right: 430px;
 }
 
 .hero-card2 {
   position: absolute;
   height: 400px;
-  top: 650px;
+  top: 850px;
   right: 1px;
 }
 
 .first-hero-div {
   margin: 100px 50px;
-}
-
-.first-h1 {
-  font-size: 60px;
-  line-height: 70px;
 }
 
 .first-p1 {
