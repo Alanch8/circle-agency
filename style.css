@@ -31,6 +31,16 @@ body {
   text-decoration: none; /* no-underline */
 }
 
+.nav-link:hover {
+  color: #a4acc9;
+  text-decoration: none; /* no-underline */
+}
+
+.selected {
+  color: #072ac8;
+  font-weight: bold;
+}
+
 .primary-button {
   color: white;
   padding: 13px 20px;
@@ -68,4 +78,17 @@ body {
   height: 400px;
   top: 650px;
   right: 1px;
+}
+
+.first-hero-div {
+  margin: 100px 50px;
+}
+
+.first-h1 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.first-p1 {
+  text-align: left;
 }
